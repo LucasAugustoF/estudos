@@ -6,7 +6,10 @@ nome = 'Otavio'; //Reatribuindo a variável
 console.log(nome);
 
 
-//não podecriar variaveis com palavras reservadas
-//let if
-//let var
-//não pode começar o nome de uma variável com um número
+// Não podemos criar o com palavras reservadas
+// Variáveis precisam ter nomes significativos
+// Não pode começar o nome de uma variável com um número // Não podem conter espaços ou traços
+// Utilizamos camelCase
+// Case-sensitive
+// Não podemos redeclarar variáveis com let
+// NÃO UTILIZE VAR, UTILIZE LET.
