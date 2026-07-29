@@ -24,5 +24,5 @@ Então, sua ideia de que os dois representam uma ausência de valor está no cam
 */
 
 const aprovado = true; //trueou false - Boolean
-
+ 
 console.log(typeof nome, num1, sobrenomeAluno, aprovado);
