@@ -1,6 +1,7 @@
 let umaString = "Um \"texto\""; // O caractere de escape \" permite que você use aspas dentro da string sem encerrar a string.
 let outraString = 'Segundo texto'; 
 let terceiraString = "Terceiro texto";
+let quartaString = 'O rato roeu a roupa do rei de Roma.';
 
 console.log(umaString);
 
@@ -22,6 +23,8 @@ console.log(outraString.replace(/o/g, '1')); // Usando o método replace() com u
 
 console.log(terceiraString.length); // Usando a propriedade length para obter o comprimento da string "terceiraString". 
 
-console.log(terceiraString.slice(2, 7)); // Usando o método slice() para extrair uma parte da string "terceiraString" do índice 2 até o índice 7 (não inclusivo).
+console.log(quartaString.slice(-5, -1)); // Usando o método slice() para extrair uma parte da string "quartaString" do índice -5 até o índice -1 (não inclusivo).
+console.log(quartaString.substring(quartaString.length - 5)); // Usando o método substring() para extrair os últimos 5 caracteres da string "quartaString".
 
-console.log(terceiraString.split(' ')); // Usando o método split() para dividir a string "terceiraString" em um array de substrings, usando o espaço como delimitador.
+
+console.log(quartaString.split(' ')); // Usando o método split() para dividir a string "quartaString" em um array de substrings, usando o espaço como delimitador.
