@@ -28,3 +28,6 @@ console.log(quartaString.substring(quartaString.length - 5)); // Usando o métod
 
 
 console.log(quartaString.split(' ')); // Usando o método split() para dividir a string "quartaString" em um array de substrings, usando o espaço como delimitador.
+
+console.log(quartaString.toUpperCase()); // Usando o método toUpperCase() para converter todos os caracteres da string "quartaString" para maiúsculas.
+console.log(quartaString.toLowerCase()); // Usando o método toLowerCase() para converter todos os caracteres da string "quartaString" para minúsculas.
