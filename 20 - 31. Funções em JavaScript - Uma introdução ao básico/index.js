@@ -1,6 +1,7 @@
 function saudacao(nome) {
-    console.log('boa noite');
+    console.log(`boa noite! ${nome}!`);
     
 }
 
-saudacao();
+saudacao('Lucas');
+saudacao('Jonas');
