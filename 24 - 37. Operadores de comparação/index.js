@@ -35,7 +35,7 @@ console.log(igualdade);
 
 const num3 = 11;
 const num4 = '10';
-const igualdade2 = num3 == '10';
+const igualdade2 = num3 == num4;
 console.log(igualdade2);
 //resultado FALSE porque o operador == só checa o valor, não o tipo
 
@@ -44,3 +44,15 @@ const num6 = '10';
 const igualdadeEstrita = num5 === num6;
 console.log(igualdadeEstrita);
 //resultado FALSE porque o operador === checa o valor e o tipo
+
+const num7 = 10;
+const num8 = 10;
+const diferenteDe = num7 != num8;
+console.log(diferenteDe);
+//resultado FALSE porque o operador != só checa o valor, não o tipo
+
+const num9 = 10;
+const num10 = '10';
+const diferenteDe2 = num9 !== num10;
+console.log(diferenteDe2);
+//resultado TRUE porque o operador !== checa o valor e o tipo
