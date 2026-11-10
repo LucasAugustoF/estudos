@@ -116,7 +116,11 @@ form button:hover {
   background: var(--primary-color-darker);
 }
 
-.paragrafo-resultado {
+.paragrafo-resultado .bad {
   background: #06ff51;
   padding: 10px 20px;
+}
+
+.bad {
+  background: #ff0606;
 }
